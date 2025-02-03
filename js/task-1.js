@@ -1,4 +1,4 @@
-// Kullanıcı Adları
+// Kullanıcı adları
 
 const getUserNames = users => users.map((user) => user.name);
 

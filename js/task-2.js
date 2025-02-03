@@ -1,4 +1,4 @@
-// Arkadaşı Olan Kullanıcılar
+// Arkadaşı olan kullanıcılar
 
 const allUsers = [
   {
