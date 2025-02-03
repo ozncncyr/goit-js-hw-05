@@ -1,6 +1,6 @@
 // Toplam bakiye
 
-const allUsers = [
+const allUsers2 = [
 	{
     name: "Moore Hensley",
     gender: "male",
@@ -40,5 +40,6 @@ const allUsers = [
 
 const getTotalBalanceByGender = (users, gender) => users.filter(user => user.gender === gender).reduce((total, user) => total + user.balance, 0);
 
-console.log(getTotalBalanceByGender(allUsers, "male")); // 12053
-console.log(getTotalBalanceByGender(allUsers, "female")); // 8863
+console.log(getTotalBalanceByGender(allUsers2, "male")); // 12053
+console.log(getTotalBalanceByGender(allUsers2, "female")); // 8863
+console.log(getTotalBalanceByGender(allUsers2, "other")); // 0
